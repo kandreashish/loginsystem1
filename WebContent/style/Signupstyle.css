@@ -1,0 +1,143 @@
+body {
+	background-image: url(skamath-HD-Wallpapers1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#head {
+	width: 80%;
+	background-color: black;
+	color: darkgoldenrod;
+	left: 150px;
+	position: absolute;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.inform {
+	width: 50%;
+	position: absolute;
+	top: 30%;
+	left: 11%;
+	outline: none;
+}
+
+.brotherhood {
+	position: absolute;
+}
+
+.signup {
+	position: absolute;
+	top: 20%;
+	left: 72%;
+	padding: 10px;
+	line-height: 10px;
+	background-color: black;
+	width: 330px;
+	height: 520px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border-radius: 14px;
+	padding: 30px 30px;
+	opacity: 0.9;
+	box-shadow: 10px 10px 5px yellow;
+}
+
+.signup:hover {
+	opacity: 1;
+	transition: 1s transform;
+}
+
+.avatar {
+	position: absolute;
+	top: -35px;
+	left: 105px;
+	border-radius: 50%;
+	padding: 2px;
+	width: 70px;
+}
+
+h2 {
+	color: antiquewhite;
+}
+
+label {
+	font-family: sans-serif;
+	color: antiquewhite;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.signup input[type="text"], input[type="password"], input[type="date"],
+	input[type="tel"], input[type="file"] {
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	color: azure;
+	outline: none;
+	margin: 15px 0px;
+}
+
+.signup input[type="submit"], button[type=reset] {
+	font-size: 18px;
+	outline: none;
+	font-family: monospace;
+	width: 90px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: red;
+	border: none;
+	font-weight: bold;
+	color: black;
+	margin-top: 16px;
+	box-shadow: 3px 3px 1px yellow;
+	margin-bottom: 40px;
+}
+
+.signup input[type="submit"], button[type="reset"] {
+	font-size: 18px;
+	outline: none;
+	font-family: monospace;
+	width: 90px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: red;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: none;
+	font-weight: bold;
+	box-shadow: 3px 3px 1px yellow;
+}
+
+.signup input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: yellow;
+}
+#returnl a
+{
+	cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkslategray;
+}
+#returnl a:hover {
+	color: greenyellow;
+}
+
+.signup button[type="reset"] {
+	outline: none;
+	text-align: center;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	display: inline;
+	position: absolute;
+}
+
+.signup button[type=reset]:hover {
+	cursor: pointer;
+	background-color: yellow;
+}

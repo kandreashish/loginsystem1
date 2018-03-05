@@ -1,5 +1,5 @@
 
-package com.login;
+package src.com.login;
 
 import java.io.IOException;
 
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import main.WebContent.LoginDao;
+import main.webapp.WebContent.LoginDao;
 
 @SuppressWarnings("serial")
 @WebServlet("/Loginser")

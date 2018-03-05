@@ -47,16 +47,8 @@
   
   <description>learning</description>
   <build>
-    <sourceDirectory>src</sourceDirectory>
-          
+    <sourceDirectory>src</sourceDirectory>     
     <plugins>
-   <plugin>            
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <configuration>
-    <webXml>/login/WebContent/WEB-INF/web.xml</webXml>        
-  </configuration>
-</plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
@@ -65,7 +57,13 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-  
+  <plugin>            
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-war-plugin</artifactId>
+  <configuration>
+    <webXml>/login/src/main/WebContent/WEB-INF/web.xml</webXml>        
+  </configuration>
+</plugin>
               <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>

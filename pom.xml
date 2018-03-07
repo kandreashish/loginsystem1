@@ -57,13 +57,7 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-  <plugin>            
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <configuration>
-    <webXml>/login/src/main/webapp/WebContent/WEB-INF/web.xml</webXml>        
-  </configuration>
-</plugin>
+  
               <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
